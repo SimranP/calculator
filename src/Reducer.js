@@ -8,9 +8,9 @@ const initialState = {
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case "SET_FIELD1": return { ...state, f1: parseInt(action.value) }
+        case "SET_FIELD1": return { ...state, f1: Number(action.value) }
 
-        case "SET_FIELD2": return { ...state, f2: parseInt(action.value) }
+        case "SET_FIELD2": return { ...state, f2: Number(action.value) }
 
         case "SET_OPS": return { ...state, ops: action.value }
 
