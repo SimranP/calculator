@@ -4,7 +4,7 @@ class Opkey extends React.Component {
     render(){
         return(
             <div>
-                <button> {this.props.op} </button>
+                <button value={this.props.op} onClick={this.props.handler}> {this.props.op} </button>
             </div>
         );
     }

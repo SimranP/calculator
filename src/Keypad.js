@@ -11,25 +11,25 @@ class Keypad extends React.Component {
                         <td>< Numkey handler={this.props.numHandler} num = {7}  /></td>
                         <td>< Numkey handler={this.props.numHandler}  num = {8}  /></td>
                         <td>< Numkey handler={this.props.numHandler} num = {9}  /></td>
-                        <td>< Opkey op = '/'  /></td>
+                        <td>< Opkey handler={this.props.opHandler} op = '/'  /></td>
                     </tr>
                     <tr>
                         <td>< Numkey handler={this.props.numHandler} num = {4}  /></td>
                         <td>< Numkey handler={this.props.numHandler} num = {5}  /></td>
                         <td>< Numkey handler={this.props.numHandler} num = {6}  /></td>
-                        <td>< Opkey op = 'x'  /></td>
+                        <td>< Opkey handler={this.props.opHandler} op = 'x'  /></td>
                     </tr>
                     <tr>
                         <td>< Numkey handler={this.props.numHandler} num = {1}  /></td>
                         <td>< Numkey handler={this.props.numHandler} num = {2}  /></td>
                         <td>< Numkey handler={this.props.numHandler} num = {3}  /></td>
-                        <td>< Opkey op = '-'  /></td>
+                        <td>< Opkey handler={this.props.opHandler} op = '-'  /></td>
                     </tr>
                     <tr>
                         <td>< Numkey handler={this.props.numHandler} num = {0}  /></td>
-                        <td>< Opkey op = 'C'  /></td>
-                        <td>< Opkey op = '='  /></td>
-                        <td>< Opkey op = '+'  /></td>
+                        <td>< Opkey handler={this.props.opHandler} op = 'C'  /></td>
+                        <td>< Opkey handler={this.props.opHandler} op = '='  /></td>
+                        <td>< Opkey handler={this.props.opHandler} op = '+'  /></td>
                     </tr>
                     
                 </table>
